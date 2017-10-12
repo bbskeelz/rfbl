@@ -8,6 +8,8 @@ import java.util.stream.Collectors;
 
 import javax.annotation.Resource;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 
@@ -15,11 +17,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import player.exceptions.MLBTeamNotFoundException;
 import player.exceptions.PositionNotFoundException;
-import player.logger.PlayerLogger;
 import player.utils.ResourceRankPair;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Player {
+
+	private static final Logger log = LoggerFactory.getLogger(Player.class);
 
 	@Resource(name="elias_id")
 	@Id
@@ -91,7 +94,7 @@ public class Player {
 		try{
 			pos = Position.getPosition(position);
 		}catch(PositionNotFoundException e){
-			PlayerLogger.log(e.getMessage());
+			log.debug(e.getMessage());
 		}
 	}
 
@@ -104,7 +107,7 @@ public class Player {
 		try{
 			this.mlbTeam = MLBTeam.getMLBTeam(pro_team);
 		}catch(MLBTeamNotFoundException e){
-			PlayerLogger.log(e.getMessage());
+			log.debug(e.getMessage());
 		}
 	}
 
@@ -234,7 +237,6 @@ public class Player {
 		this.id = player.id;
 		this.firstname = player.firstname;
 		this.lastname = player.lastname;
-		this.firstname = player.fullname;
 		this.position = player.position;
 		this.pro_team = player.pro_team;
 		this.free_agent = player.free_agent;
@@ -249,7 +251,7 @@ public class Player {
 	    try {
 	        return Position.getPosition(pos);
 	    } catch (Exception ex) {
-	    	PlayerLogger.log(ex.getMessage());
+	    	log.debug(ex.getMessage());
 	    	return null;
 	    }
 	}

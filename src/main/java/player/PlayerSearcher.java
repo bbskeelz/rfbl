@@ -22,11 +22,8 @@ import org.springframework.web.util.UriComponentsBuilder;
 import player.domain.Player;
 import player.domain.PlayerResponse;
 import player.domain.Resource;
-import player.logger.PlayerLogger;
-import player.parsers.Baseball_America_2017_Parser;
-import player.parsers.Baseball_Prospectus_2017_Parser;
-import player.parsers.ESPN_2017_Parser;
-import player.parsers.MLB_2016;
+import player.parsers.Baseball_America_2017_Midseason_Parser;
+import player.parsers.Baseball_America_May_2017_Parser;
 import player.parsers.Parser;
 import player.repository.PlayerRepository;
 import player.repository.ResourceRepository;
@@ -59,14 +56,22 @@ public class PlayerSearcher implements CommandLineRunner {
         PlayerSearcher ps1 = new PlayerSearcher();
         ps1.cachedPlayers = new HashMap<>();
     	List<Parser> parsers = new ArrayList<>();
-    	Parser parser1 = new Baseball_America_2017_Parser("2017-Baseball-America.csv");
-    	parsers.add(parser1);
-//    	Parser parser2 = new MLB_2016("2016-MLB.txt"); 
+//    	Parser parser1 = new Baseball_America_2017_Parser("2017-Baseball-America.csv");
+//    	parsers.add(parser1);
+//    	Parser parser2 = new MLB_2016("2017-MLB.txt"); 
 //    	parsers.add(parser2);
 //    	Parser parser3 = new Baseball_Prospectus_2017_Parser("2017-Baseball-Prospectus.csv");
 //    	parsers.add(parser3);  
 //    	Parser parser4 = new ESPN_2017_Parser("2017-ESPN.csv");
 //    	parsers.add(parser4);
+//    	Parser parser4 = new ESPN_2017_APRIL_Parser("2017-ESPN-April.csv");
+//    	parsers.add(parser4);
+//    	Parser parser5 = new Baseball_America_May_2017_Parser("2017-05-Baseball-America.csv");
+//    	parsers.add(parser5);
+    	Parser parser6 = new Baseball_America_2017_Midseason_Parser("2017-Baseball-America-(M).csv");
+    	parsers.add(parser6);
+    	
+
     	
     	for (Parser parser : parsers){
     		parser.parsePlayers();
@@ -131,7 +136,10 @@ public class PlayerSearcher implements CommandLineRunner {
         		}
         	}
         	if (playerList != null && !playerList.isEmpty()){
-        		List<Player> filteredList = playerList.stream().filter(v -> v.equalsRelaxedVersion(p)).collect(Collectors.toList());
+        		
+        		List<Player> filteredList = playerList.size() == 1 
+        										? playerList 
+        										: playerList.stream().filter(v -> v.equalsRelaxedVersion(p)).collect(Collectors.toList());
         		for (Player player_candidate : filteredList){
         			if (p.equals(player_candidate) || filteredList.size()==1){
         				Player previously_saved_player = playerRepository.findById(player_candidate.getId());
@@ -149,13 +157,13 @@ public class PlayerSearcher implements CommandLineRunner {
         					playerRepository.save(p);
         				}
         			}else{
-        				PlayerLogger.log("mismatch found");
+        				log.debug("mismatch found");
         			}
     				if (p.isFree_agent()){
-    					printFreeAgent(p, site, rank);
+    					printFreeAgent(p, site, rank-1);
     				}else{
     					if (p.getOwned_by_team_id().equals("8")){
-    						printMyPlayer(p, site, rank);
+    						printMyPlayer(p, site, rank-1);
     					}
     				}
         			
