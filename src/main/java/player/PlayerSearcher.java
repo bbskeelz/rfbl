@@ -2,9 +2,7 @@ package player;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
@@ -23,7 +21,6 @@ import player.domain.Player;
 import player.domain.PlayerResponse;
 import player.domain.Resource;
 import player.parsers.Baseball_America_2017_Midseason_Parser;
-import player.parsers.Baseball_America_May_2017_Parser;
 import player.parsers.Parser;
 import player.repository.PlayerRepository;
 import player.repository.ResourceRepository;
@@ -45,16 +42,12 @@ public class PlayerSearcher implements CommandLineRunner {
     private String access_token;
     @Value("${search_url}")
     private String url;
-    private Map<String, List<Player>> cachedPlayers;
-
     public static void main(String args[]) {
         SpringApplication.run(PlayerSearcher.class, args);
     }
 
     @Override
     public void run(String... args) throws Exception {
-        PlayerSearcher ps1 = new PlayerSearcher();
-        ps1.cachedPlayers = new HashMap<>();
     	List<Parser> parsers = new ArrayList<>();
 //    	Parser parser1 = new Baseball_America_2017_Parser("2017-Baseball-America.csv");
 //    	parsers.add(parser1);
@@ -70,7 +63,8 @@ public class PlayerSearcher implements CommandLineRunner {
 //    	parsers.add(parser5);
     	Parser parser6 = new Baseball_America_2017_Midseason_Parser("2017-Baseball-America-(M).csv");
     	parsers.add(parser6);
-    	
+//    	Parser parser7 = new Baseball_America_2018_Parser("2018-Baseball-America.csv");
+//    	parsers.add(parser7);
 
     	
     	for (Parser parser : parsers){
