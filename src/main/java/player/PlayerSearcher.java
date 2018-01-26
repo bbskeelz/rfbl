@@ -20,7 +20,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import player.domain.Player;
 import player.domain.PlayerResponse;
 import player.domain.Resource;
-import player.parsers.Baseball_America_2017_Midseason_Parser;
+import player.parsers.Baseball_America_2018_Parser;
 import player.parsers.Parser;
 import player.repository.PlayerRepository;
 import player.repository.ResourceRepository;
@@ -61,10 +61,10 @@ public class PlayerSearcher implements CommandLineRunner {
 //    	parsers.add(parser4);
 //    	Parser parser5 = new Baseball_America_May_2017_Parser("2017-05-Baseball-America.csv");
 //    	parsers.add(parser5);
-    	Parser parser6 = new Baseball_America_2017_Midseason_Parser("2017-Baseball-America-(M).csv");
-    	parsers.add(parser6);
-//    	Parser parser7 = new Baseball_America_2018_Parser("2018-Baseball-America.csv");
-//    	parsers.add(parser7);
+//    	Parser parser6 = new Baseball_America_2017_Midseason_Parser("2017-Baseball-America-(M).csv");
+//    	parsers.add(parser6);
+    	Parser parser7 = new Baseball_America_2018_Parser("2018-Baseball-America.csv");
+    	parsers.add(parser7);
 
     	
     	for (Parser parser : parsers){

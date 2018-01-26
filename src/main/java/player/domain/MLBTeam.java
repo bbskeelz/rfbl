@@ -18,7 +18,7 @@ public enum MLBTeam {
 	FLA(new String[]{"Florida ","Marlins ","FLA","Florida  Marlins ", "MIA", "Miami", "Miami Marlins"}),
 	HOU(new String[]{"Houston ","Astros ","HOU","Houston  Astros "}),
 	KC(new String[]{"KC","Kansas City","Royals","KAN","Kansas City Royals"}),
-	LAA(new String[]{"Los Angeles","Angeles","LAA","Los Angeles Angels "}),
+	LAA(new String[]{"Los Angeles","Angels","LAA","Los Angeles Angels "}),
 	LAD(new String[]{"Los Angeles","Dodgers","LAD","Los Angeles Dodgers"}),
 	MIL(new String[]{"Milwaukee ","Brewers","MIL","Milwaukee  Brewers "}),
 	MIN(new String[]{"Minnesota ","Twins","MIN","Minnesota  Twins "}),
