@@ -1,5 +1,6 @@
 package player.parsers;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import player.domain.Player;
@@ -16,7 +17,7 @@ public class PlayerFactory {
 	public Player getPlayer(){
 		Player player = new Player();
 		player.setMentions(new HashMap<>());
-		ResourceRankPair pair = new ResourceRankPair(parser.getFile().split("\\.")[0], -1);
+		ResourceRankPair pair = new ResourceRankPair(parser.getFile().split("\\.")[0], -1, new ArrayList<>());
 		player.getMentions().put(parser.getFile().split("\\.")[0], pair);
 		return player;
 	}

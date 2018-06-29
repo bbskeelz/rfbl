@@ -15,7 +15,6 @@ public class GenericParser extends Parser{
 		try {
 			identifyRankPosition(file);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 //		identifySplittingCharacter();

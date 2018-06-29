@@ -37,7 +37,7 @@ public class Player {
 	private String owned_by_team_id;
 	private boolean free_agent;
 	private String[] eligible_positions;
-	private Map<String, ResourceRankPair> mentions; 
+	private Map<String, ResourceRankPair> mentions;
 	transient private MLBTeam mlbTeam;
 	transient private Position pos;
 	
