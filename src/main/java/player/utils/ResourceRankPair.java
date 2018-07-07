@@ -1,16 +1,27 @@
 package player.utils;
 
 import java.io.Serializable;
+import java.util.List;
 
 @SuppressWarnings("serial")
 public class ResourceRankPair implements Serializable{
 
 	private String resourceUrl;
 	private int rank;
+	private List<String> text;
 	
-	public ResourceRankPair(String resourceUrl, int rank){
+	public ResourceRankPair(String resourceUrl, int rank, List<String> text){
 		this.resourceUrl = resourceUrl;
 		this.rank = rank;
+		this.text = text;
+	}
+
+	public List<String> getText() {
+		return text;
+	}
+
+	public void setText(List<String> text) {
+		this.text = text;
 	}
 
 	public String getResourceUrl() {

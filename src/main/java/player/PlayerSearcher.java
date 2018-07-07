@@ -20,15 +20,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import player.domain.Player;
 import player.domain.PlayerResponse;
 import player.domain.Resource;
-import player.parsers.Baseball_America_2017_Midseason_Parser;
-import player.parsers.Baseball_America_2017_Parser;
-import player.parsers.Baseball_America_2018_May_Parser;
-import player.parsers.Baseball_America_2018_Parser;
-import player.parsers.Baseball_America_May_2017_Parser;
-import player.parsers.Baseball_Prospectus_2017_Parser;
-import player.parsers.ESPN_2017_APRIL_Parser;
-import player.parsers.ESPN_2017_Parser;
-import player.parsers.MLB_2016;
+import player.parsers.Baseball_America_Latest_Parser;
 import player.parsers.Parser;
 import player.repository.PlayerRepository;
 import player.repository.ResourceRepository;
@@ -57,29 +49,24 @@ public class PlayerSearcher implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
     	List<Parser> parsers = new ArrayList<>();
-    	Parser parser1 = new Baseball_America_2017_Parser("2017-Baseball-America.csv");
-    	parsers.add(parser1);
-    	Parser parser2 = new MLB_2016("2017-MLB.txt"); 
-    	parsers.add(parser2);
-    	Parser parser3 = new Baseball_Prospectus_2017_Parser("2017-Baseball-Prospectus.csv");
-    	parsers.add(parser3);  
-    	Parser parser4 = new ESPN_2017_Parser("2017-ESPN.csv");
-    	parsers.add(parser4);
-    	Parser parser4a = new ESPN_2017_APRIL_Parser("2017-ESPN-April.csv");
-    	parsers.add(parser4a);
-    	Parser parser5 = new Baseball_America_May_2017_Parser("2017-05-Baseball-America.csv");
-    	parsers.add(parser5);
-    	Parser parser6 = new Baseball_America_2017_Midseason_Parser("2017-Baseball-America-(M).csv");
-    	parsers.add(parser6);
-    	Parser parser7 = new Baseball_America_2018_Parser("2018-Baseball-America.csv");
-    	parsers.add(parser7);
-    	Parser parser8 = new Baseball_America_2018_Parser("2018-ESPN.csv");
+//    	Parser parser1 = new Baseball_America_2017_Parser("2017-Baseball-America.csv");
+//    	parsers.add(parser1);
+//    	Parser parser2 = new MLB_2016("2017-MLB.txt"); 
+//    	parsers.add(parser2);
+//    	Parser parser3 = new Baseball_Prospectus_2017_Parser("2017-Baseball-Prospectus.csv");
+//    	parsers.add(parser3);  
+//    	Parser parser4 = new ESPN_2017_Parser("2017-ESPN.csv");
+//    	parsers.add(parser4);
+//    	Parser parser4 = new ESPN_2017_APRIL_Parser("2017-ESPN-April.csv");
+//    	parsers.add(parser4);
+//    	Parser parser5 = new Baseball_America_May_2017_Parser("2017-05-Baseball-America.csv");
+//    	parsers.add(parser5);
+//    	Parser parser6 = new Baseball_America_2017_Midseason_Parser("2017-Baseball-America-(M).csv");
+//    	parsers.add(parser6);
+//    	Parser parser7 = new Baseball_America_2018_Parser("2018-Baseball-America.csv");
+//    	parsers.add(parser7);
+    	Parser parser8 = new Baseball_America_Latest_Parser("ba/latest.csv");
     	parsers.add(parser8);
-    	Parser parser9 = new MLB_2016("2018-MLB.txt"); 
-    	parsers.add(parser9);
-    	Parser parser10 = new Baseball_America_2018_May_Parser("2018-Baseball-America-(May).txt"); 
-    	parsers.add(parser10);
-	
 
     	
     	for (Parser parser : parsers){

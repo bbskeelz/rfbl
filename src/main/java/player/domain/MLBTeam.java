@@ -5,7 +5,11 @@ import player.exceptions.MLBTeamNotFoundException;
 public enum MLBTeam {
 
 	//TODO: convert these to xml resources.
+<<<<<<< HEAD
 	ARI(new String[]{"Arizona ","Diamondbacks ","ARI","Arizona  Diamondbacks ", "D-backs", "Dbacks"}),
+=======
+	ARI(new String[]{"Arizona ","Diamondbacks ","Dbacks", "ARI","Arizona  Diamondbacks ", "D-Backs"}),
+>>>>>>> 99d53adb3bfadac19188bd84c40c812d974f9b88
 	ATL(new String[]{"Atlanta ","Braves ","ATL","Atlanta  Braves "}),
 	BAL(new String[]{"Baltimore ","Orioles ","BAL","Baltimore  Orioles "}),
 	BOS(new String[]{"Boston ","Red Sox","BOS","Boston  Red Sox"}),
