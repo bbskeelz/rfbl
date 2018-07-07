@@ -1,0 +1,402 @@
+1 –
+Ronald Acuna Jr.
+Braves OF
+Hit: 60 | Power: 70 | Speed: 70 | Fielding: 70 | Arm: 60
+2 –
+Shohei Ohtani
+Angels RHP/DH
+Hit: 50 | Power: 60 | Speed: 60 | Fielding: 50 | Arm: 70
+Fastball: 80 | Curveball: 45 | Slider: 60 | Chanegup: 45 | Splitter: 70
+3 –
+Vladimir Guerrero Jr.
+Blue Jays 3B
+Hit: 80 | Power: 70 | Speed: 40 | Fielding: 40 | Arm: 55
+4 –
+Eloy Jimenez
+White Sox OF
+Hit: 60 | Power: 70 | Speed: 40 | Fielding: 45 | Arm: 45
+5 –
+Victor Robles
+Nationals OF
+Hit: 60 | Power: 50 | Speed: 70 | Fielding: 70 | Arm: 60
+6 –
+Gleyber Torres
+Yankees SS
+Hit: 60 | Power: 55 | Speed: 50 | Fielding: 60 | Arm: 60
+7
+Bo Bichette
+Blue Jays SS
+Hit: 70 | Power: 60 | Speed: 50 | Fielding: 50 | Arm: 60
+8
+Nick Senzel
+Reds 3B/2B
+Hit: 60 | Power: 60 | Speed: 55 | Fielding: 60 | Arm: 60
+9 –
+Fernando Tatis Jr.
+Padres SS
+Hit: 60 | Power: 60 | Speed: 50 | Fielding: 55 | Arm: 60
+10 –
+Forrest Whitley
+Astros RHP
+Fastball: 70 | Curveball: 60 | Slider: 60 | Changeup: 55 | Cutter: 50 | Control: 55
+11 –
+Michael Kopech
+White Sox RHP
+Fastball: 80 | Slider: 60 | Changeup: 50 | Control: 45
+12 –
+Mitch Keller
+Pirates RHP
+Fastball: 70 | Curveball: 60 | Changeup: 50 | Control: 60
+13 –
+Walker Buehler
+Dodgers RHP
+Fastball: 70 | Curveball: 60 | Slider: 60 | Changeup: 50 | Control: 60
+14
+Kyle Tucker
+Astros OF
+Hit: 60 | Power: 60 | Speed: 50 | Fielding: 55 | Arm: 50
+15
+Alex Reyes
+Cardinals RHP
+Fastball: 80 | Curveball: 70 | Changeup: 60 | Control: 50
+16
+Willy Adames
+Rays SS
+Hit: 55 | Power: 45 | Speed: 50 | Fielding: 60 | Arm: 60
+17
+Francisco Mejia
+Indians C
+Hit: 60 | Power: 45 | Speed: 40 | Fielding: 50 | Arm: 80
+18
+Brendan Rodgers
+Rockies SS
+Hit: 60 | Power: 55 | Speed: 50 | Fielding: 55 | Arm: 60
+19
+Luiz Gohara
+Braves LHP
+Fastball: 80 | Slider: 70 | Changeup: 45 | Control: 45
+20
+Brent Honeywell
+Rays RHP
+Fastball: 60 | Curveball: 55 | Slider: 55 | Changeup: 60 | Control: 60 | Screwball: 70
+21
+Royce Lewis
+Twins SS
+Hit: 60 | Power: 55 | Speed: 60 | Fielding: 60 | Arm: 55
+22
+Sixto Sanchez
+Phillies RHP
+Fastball: 70 | Slider: 55 | Changeup: 60 | Control: 60
+23
+MacKenzie Gore
+Padres LHP
+Fastball: 60 | Curveball: 60 | Slider: 55 | Changeup: 60 | Control: 60
+24
+Mike Soroka
+Braves RHP
+Fastball: 60 | Slider: 60 | Changeup: 55 | Control: 60
+25
+Austin Hays
+Orioles OF
+Hit: 60 | Power: 60 | Speed: 50 | Fielding: 55 | Arm: 60
+26
+Michel Baez
+Padres RHP
+Fastball: 70 | Curveball: 55 | Slider: 55 | Changeup: 60 | Control: 60
+27
+Luis Urias
+Padres Padres
+Hit: 70 | Power: 40 | Speed: 50 | Fielding: 60 | Arm: 55
+28
+Juan Soto
+Nationals OF
+Hit: 60 | Power: 60 | Speed: 50 | Fielding: 55 | Arm: 50
+29
+Triston McKenzie
+Indians RHP
+Fastball: 60 | Curveball: 60 | Changeup: 55 | Control: 55
+30
+Hunter Greene
+Reds RHP
+Fastball: 80 | Slider: 55 | Changeup: 50 | Control: 55
+31
+Kyle Wright
+Braves RHP
+Fastball: 70 | Curveball: 60 | Slider: 60 | Changeup: 55 | Control: 50
+32
+Willie Calhoun
+Rangers OF
+Hit: 60 | Power: 60 | Speed: 30 | Fielding: 30 | Arm: 40
+33
+Alex Verdugo
+Dodgers OF
+Hit: 60 | Power: 50 | Speed: 50 | Fielding: 55 | Arm: 70
+34
+Estevan Florial
+Yankees OF
+Hit: 50 | Power: 55 | Speed: 70 | Fielding: 60 | Arm: 70
+35
+Brendan McKay
+Rays LHP/1B
+Hit: 60 | Power: 50 | Speed: 30 | Fielding: 55 | Arm: 60
+Fastball: 55 | Curveball: 60 | Slider: 55 | Changeup: 55 | Control: 55
+36
+Keibert Ruiz
+Dodgers C
+Hit: 60 | Power: 45 | Speed: 40 | Fielding: 55 | Arm: 50
+37
+Justus Sheffield
+Yankees LHP
+Fastball: 70 | Slider: 55 | Changeup: 55 | Control: 50
+38
+Franklin Perez
+Tigers RHP
+Fastball: 60 | Curveball: 60 | Slider: 45 | Changeup: 50 | Control: 60
+39
+Ian Anderson
+Braves RHP
+Fastball: 60 | Curveball: 60 | Changeup: 55 | Control: 50
+40
+Franklin Barreto
+Athletics SS
+Hit: 60 | Power: 50 | Speed: 55 | Fielding: 50 | Arm: 50
+41
+Austin Meadows
+Pirates OF
+Hit: 60 | Power: 55 | Speed: 60 | Fielding: 60 | Arm: 50
+42
+Austin Riley
+Braves 3B
+Hit: 50 | Power: 60 | Speed: 40 | Fielding: 55 | Arm: 70
+43
+Jo Adell
+Angels OF
+Hit: 60 | Power: 70 | Speed: 70 | Fielding: 55 | Arm: 60
+44
+Jake Bauers
+Rays 1B
+Hit: 55 | Power: 50 | Speed: 50 | Fielding: 55 | Arm: 45
+45
+Keston Hiura
+Brewers 2B
+Hit: 60 | Power: 55 | Speed: 45 | Fielding: 45 | Arm: 45
+46
+Taylor Trammell
+Reds OF
+Hit: 55 | Power: 60 | Speed: 60 | Fielding: 55 | Arm: 40
+47
+Jesus Sanchez
+Rays OF
+Hit: 60 | Power: 55 | Speed: 55 | Fielding: 50 | Arm: 50
+48
+Alex Faedo
+Tigers RHP
+Fastball: 60 | Slider: 60 | Changeup: 60 | Control: 55
+49
+A.J. Puk
+Athletics LHP
+Fastball: 70 | Slider: 60 | Changeup: 50 | Control: 45
+50
+Jack Flaherty
+Cardinals RHP
+Fastball: 60 | Curveball: 50 | Slider: 55 | Changeup: 50 | Control: 55
+52
+Leody Taveras
+Rangers OF
+Hit: 55 | Power: 50 | Speed: 60 | Fielding: 60 | Arm: 60
+52
+Cal Quantrill
+Padres RHP
+Fastball: 60 | Curveball: 45 | Slider: 50 | Changeup: 70 | Control: 50
+53
+Alec Hansen
+White Sox RHP
+Fastball: 70 | Curveball: 55 | Slider: 40 | Changeup: 55 | Control: 45
+54
+Luis Robert
+White Sox OF
+Hit: 55 | Power: 60 | Speed: 70 | Fielding: 50 | Arm: 45
+55
+Jesus Luzardo
+Athletics LHP
+Fastball: 60 | Curveball: 55 | Changeup: 60 | Control: 55
+56
+Julio Pablo Martinez
+Rangers OF
+Hit: 55 | Power: 55 | Speed: 60 | Fielding: 55 | Arm: 50
+57
+Anthony Alford
+Blue Jays OF
+Hit: 60 | Power: 50 | Speed: 60 | Fielding: 60 | Arm: 40
+58
+Yordan Alvarez
+Astros 1B
+Hit: 55 | Power: 60 | Speed: 50 | Fielding: 50 | Arm: 45
+59
+Ryan McMahon
+Rockies 1B
+Hit: 60 | Power: 55 | Speed: 45 | Fielding: 50 | Arm: 55
+60
+Jorge Mateo
+Athletics SS
+Hit: 50 | Power: 45 | Speed: 80 | Fielding: 50 | Arm: 55
+61
+Kolby Allard
+Braves LHP
+Fastball: 50 | Curveball: 60 | Changeup: 60 | Control: 60
+62
+Adrian Morejon
+Padres LHP
+Fastball: 60 | Curveball: 50 | Changeup: 60 | Control: 55
+63
+Chance Sisco
+Orioles C
+Hit: 60 | Power: 45 | Speed: 40 | Fielding: 50 | Arm: 50
+64
+Mitchell White
+Dodgers RHP
+Fastball: 60 | Curveball: 55 | Slider: 60 | Changeup: 45 | Control: 50
+65
+Sandy Alcantara
+Marlins RHP
+Fastball: 70 | Curveball: 50 | Slider: 50 | Changeup: 40 | Control: 45
+66
+Kyle Lewis
+Mariners OF
+Hit: 55 | Power: 60 | Speed: 50 | Fielding: 55 | Arm: 55
+67
+Ryan Mountcastle
+Orioles 3B
+Hit: 60 | Power: 60 | Speed 45 | Field 45 | Arm 40
+68
+Jon Duplantier
+D-backs RHP
+Fastball: 55 | Curveball: 55 | Slider: 55 | Changeup: 50 | Control: 60
+69
+Corbin Burnes
+Brewers RHP
+Fastball: 60 | Curveball: 60 | Slider: 55 | Changeup: 50 | Control: 55
+70
+Carson Kelly
+Cardinals C
+Hit: 50 | Power: 50 | Speed: 20 | Fielding: 70 | Arm: 60
+71
+Albert Abreu
+Yankees RHP
+Fastball: 70 | Curveball: 60 | Changeup: 55 | Control: 50
+72
+Matt Manning
+Tigers RHP
+Fastball: 60 | Curveball: 60 | Changeup: 60 | Control: 45
+73
+Heliot Ramos
+Giants OF
+Hit: 50 | Power: 60 | Speed: 60 | Fielding: 55 | Arm: 55
+74
+Brett Phillips
+Brewers OF
+Hit: 50 | Power: 55 | Speed: 60 | Fielding: 60 | Arm: 80
+75
+Monte Harrison
+Marlins OF
+Hit: 50 | Power: 55 | Speed: 60 | Fielding: 55 | Arm: 60
+76
+Chance Adams
+Yankees RHP
+Fastball: 60 | Curveball: 45 | Slider: 60 | Changeup: 45 | Control: 50
+78
+Dane Dunning
+White Sox RHP
+Fastball: 60 | Slider: 60 | Changeup: 55 | Control: 55
+78
+Tyler O'Neill
+Cardinals OF
+Hit: 45 | Power: 70 | Speed: 50 | Fielding: 50 | Arm: 55
+79
+Nate Pearson
+Blue Jays RHP
+Fastball: 70 | Curveball: 45 | Slider: 55 | Changeup: 50 | Control: 45
+80
+Adonis Medina
+Phillies RHP
+Fastball: 60 | Slider: 55 | Changeup: 60 | Control: 55
+81
+Jorge Guzman
+Marlins RHP
+Fastball: 80 | Slider: 50 | Changeup: 50 | Control: 50
+82
+Dustin Fowler
+Athletics OF
+Hit: 55 | Power: 55 | Speed: 60 | Fielding: 60 | Arm: 50
+83
+Andres Gimenez
+Mets SS
+Hit: 55 | Power: 40 | Speed: 50 | Fielding: 60 | Arm: 60
+84
+J.B. Bukauskas
+Astros RHP
+Fastball: 60 | Slider: 70 | Changeup: 45 | Control: 50
+85
+Jahmai Jones
+Angels 2B
+Hit: 50 | Power: 55 | Speed: 60 | Fielding: 55 | Arm: 50
+86
+Brent Rooker
+Twins OF
+Hit: 50 | Power: 60 | Speed: 40 | Fielding: 50 | Arm: 45
+87
+Lourdes Gurriel Jr.
+Blue Jays 2B
+Hit 55 | Power 60 | Speed 55 | Field 45 | Arm 60
+88
+Nick Gordon
+Twins SS
+Hit: 50 | Power: 45 | Speed: 50 | Fielding: 50 | Arm: 55
+89
+Wander Javier
+Twins SS
+Hit: 50 | Power: 50 | Speed: 60 | Fielding: 55 | Arm: 70
+90
+Wander Franco
+Rays SS
+Hit: 60 | Power: 55 | Speed: 50 | Fielding: 50 | Arm: 50
+91
+Shane Bieber
+Indians RHP
+Fastball 55 | Curveball 55 | Slider 50 | Changeup 50 | Control 70
+92
+Anthony Banda
+Rays LHP
+Fastball 60 | Curveball 55 | Changeup 55 | Control 50
+93
+Yusniel Diaz
+Dodgers OF
+Hit: 55 | Power: 50 | Speed: 50 | Fielding: 50 | Arm: 60
+94
+Stephen Gonsalves
+Twins LHP
+Fastball: 50 | Curveball: 55 | Slider: 45 | Changeup: 55 | Control: 55
+95
+Jay Groome
+Red Sox LHP
+Fastball: 60 | Curveball: 60 | Changeup: 50 | Control: 50 | Cutter: 55
+96
+Carter Kieboom
+Nationals SS
+Hit: 55 | Power: 55 | Speed: 50 | Fielding: 45 | Arm: 50
+97
+Michael Chavis
+Red Sox 3B
+Hit: 50 | Power: 60 | Speed: 45 | Fielding: 45 | Arm: 55
+98
+Joey Lucchesi
+Padres LHP
+Fastball: 55 | Curveball: 55 | Changeup: 55 | Control: 55 
+99
+Brandon Marsh
+Angels OF
+Hit: 55 | Power: 55 |Speed: 60 | Fielding: 55 | Arm: 60
+100
+Griffin Canning
+Angels RHP
+Fastball: 55 | Slider: 55 | Curveball: 50 | Changeup: 55 | Control: 50

@@ -37,13 +37,14 @@ public class MLB_2016 extends Parser{
 //					.map(String::toUpperCase).
 					.collect(Collectors.toList());
 			StringBuilder sb = null;
-			for (String playerLine : lines){
+			for (int i = 0; i < lines.size(); i++){
+				String playerLine = lines.get(i);
 				sb = new StringBuilder();
 				Matcher m = pattern.matcher(playerLine);
 				while (m.find()){
 					sb.append(m.group()).append(" ");
 				}
-				Player player = playerFactory.getPlayer();
+				Player player = playerFactory.getPlayer(i);
 				player.setFullname(sb.toString().trim());
 				players.add(player);
 			}

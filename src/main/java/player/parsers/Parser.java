@@ -3,7 +3,10 @@ package player.parsers;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import player.domain.Player;
+import player.utils.PlayerFactory;
 
 public abstract class Parser {
 
