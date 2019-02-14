@@ -19,7 +19,7 @@ public class MLB_2016 extends Parser{
 	}
 
 	public MLB_2016(String file){
-		super(file);
+		super(file, "201604");
 	}
 	
 	@Override
@@ -44,7 +44,7 @@ public class MLB_2016 extends Parser{
 				while (m.find()){
 					sb.append(m.group()).append(" ");
 				}
-				Player player = playerFactory.getPlayer(i);
+				Player player = playerFactory.getPlayer();
 				player.setFullname(sb.toString().trim());
 				players.add(player);
 			}

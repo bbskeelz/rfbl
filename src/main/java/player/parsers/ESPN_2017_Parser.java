@@ -22,7 +22,7 @@ public class ESPN_2017_Parser extends Parser{
 	}
 
 	public ESPN_2017_Parser(String file){
-		super(file);
+		super(file, "201702");
 	}
 	
 	@Override

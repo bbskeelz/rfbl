@@ -28,7 +28,7 @@ public class Baseball_America_2017_Midseason_Parser extends Parser{
 	}
 
 	public Baseball_America_2017_Midseason_Parser(String file){
-		super(file);
+		super(file, "201706");
 	}
 	
 	@Override

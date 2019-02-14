@@ -26,7 +26,7 @@ public class BaseballAmericaParser extends Parser{
 	}
 
 	public BaseballAmericaParser(String file){
-		super(file);
+		super(file, "");
 	}
 	
 	@Override

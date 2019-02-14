@@ -3,9 +3,8 @@ package player.parsers;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 import player.domain.Player;
+import player.domain.Resource;
 import player.utils.PlayerFactory;
 
 public abstract class Parser {
@@ -14,14 +13,19 @@ public abstract class Parser {
 	String file;
 	List<Player> players;
 	PlayerFactory playerFactory;
+	Resource resource;
 	
 	public Parser(){};
 	
-	public Parser(String file){
+	public Parser(String file, String date){
 		this.name = file.split("\\.")[0];
 		this.file = file;
 		this.players = new ArrayList<>();
 		this.playerFactory = new PlayerFactory(this);
+		this.resource = new Resource();
+		resource.setSite(getName());
+		resource.setRanks(players);
+		resource.setDate(date);
 	}
 
 	public abstract void parsePlayers();
@@ -48,6 +52,14 @@ public abstract class Parser {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public Resource getResource() {
+		return resource;
+	}
+
+	public void setResource(Resource resource) {
+		this.resource = resource;
 	}
 	
 }

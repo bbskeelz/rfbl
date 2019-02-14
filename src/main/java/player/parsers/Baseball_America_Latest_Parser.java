@@ -28,7 +28,7 @@ public class Baseball_America_Latest_Parser extends Parser{
 	}
 
 	public Baseball_America_Latest_Parser(String file){
-		super(file);
+		super(file, "");
 	}
 	
 	@Override

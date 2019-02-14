@@ -24,7 +24,7 @@ public class Baseball_America_2016_Parser extends Parser{
 	}
 
 	public Baseball_America_2016_Parser(String file){
-		super(file);
+		super(file, "201604");
 	}
 	
 	@Override

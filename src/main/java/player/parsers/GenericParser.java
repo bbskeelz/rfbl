@@ -17,10 +17,6 @@ public class GenericParser extends Parser{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-//		identifySplittingCharacter();
-//		identifyMLBTeamPosition();
-//		identifyElligiblePosition();
-//		identifyName();
 	}
 
 	private void identifyRankPosition(File file) throws IOException {

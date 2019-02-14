@@ -5,16 +5,12 @@ import player.exceptions.MLBTeamNotFoundException;
 public enum MLBTeam {
 
 	//TODO: convert these to xml resources.
-<<<<<<< HEAD
-	ARI(new String[]{"Arizona ","Diamondbacks ","ARI","Arizona  Diamondbacks ", "D-backs", "Dbacks"}),
-=======
 	ARI(new String[]{"Arizona ","Diamondbacks ","Dbacks", "ARI","Arizona  Diamondbacks ", "D-Backs"}),
->>>>>>> 99d53adb3bfadac19188bd84c40c812d974f9b88
 	ATL(new String[]{"Atlanta ","Braves ","ATL","Atlanta  Braves "}),
 	BAL(new String[]{"Baltimore ","Orioles ","BAL","Baltimore  Orioles "}),
 	BOS(new String[]{"Boston ","Red Sox","BOS","Boston  Red Sox"}),
 	CHC(new String[]{"Chicago ","Cubs ","CHC","Chicago  Cubs "}),
-	CHW(new String[]{"Chicago ","White Sox","CHW","Chicago  White Sox"}),
+	CHW(new String[]{"Chicago ","White Sox","CHW","Chicago  White Sox", "CWS"}),
 	CIN(new String[]{"Cincinnati ","Reds ","CIN","Cincinnati  Reds "}),
 	CLE(new String[]{"Cleveland ","Indians ","CLE","Cleveland  Indians "}),
 	COL(new String[]{"Colorado ","Rockies ","COL","Colorado  Rockies "}),
@@ -22,7 +18,7 @@ public enum MLBTeam {
 	FLA(new String[]{"Florida ","Marlins ","FLA","Florida  Marlins ", "MIA", "Miami", "Miami Marlins"}),
 	HOU(new String[]{"Houston ","Astros ","HOU","Houston  Astros "}),
 	KC(new String[]{"KC","Kansas City","Royals","KAN","Kansas City Royals"}),
-	LAA(new String[]{"Los Angeles","Angels","LAA","Los Angeles Angels "}),
+	LAA(new String[]{"Los Angeles","Angels","LAA","Los Angeles Angels", "ANA"}),
 	LAD(new String[]{"Los Angeles","Dodgers","LAD","Los Angeles Dodgers"}),
 	MIL(new String[]{"Milwaukee ","Brewers","MIL","Milwaukee  Brewers "}),
 	MIN(new String[]{"Minnesota ","Twins","MIN","Minnesota  Twins "}),

@@ -37,12 +37,7 @@ public class Player {
 	private String owned_by_team_id;
 	private boolean free_agent;
 	private String[] eligible_positions;
-<<<<<<< HEAD
-	private Map<String, ResourceRankPair> mentions; 
-	private List<String> BA_grades;
-=======
 	private Map<String, ResourceRankPair> mentions;
->>>>>>> 99d53adb3bfadac19188bd84c40c812d974f9b88
 	transient private MLBTeam mlbTeam;
 	transient private Position pos;
 	
@@ -99,9 +94,8 @@ public class Player {
 		try{
 			pos = Position.getPosition(position);
 		}catch(PositionNotFoundException e){
-			log.error(e.getMessage());
+			log.debug(e.getMessage());
 		}
-		this.eligible_positions = new String[]{position};
 	}
 
 	public String getPro_team() {
@@ -113,7 +107,7 @@ public class Player {
 		try{
 			this.mlbTeam = MLBTeam.getMLBTeam(pro_team);
 		}catch(MLBTeamNotFoundException e){
-			log.error(e.getMessage());
+			log.debug(e.getMessage());
 		}
 	}
 
@@ -268,14 +262,6 @@ public class Player {
 
 	public void setOwned_by_team_id(String owned_by_team_id) {
 		this.owned_by_team_id = owned_by_team_id;
-	}
-
-	public List<String> getBA_grades() {
-		return BA_grades;
-	}
-
-	public void setBA_grades(List<String> bA_grades) {
-		BA_grades = bA_grades;
 	}
 
 }
